@@ -19,7 +19,7 @@ public class ListNode {
         this.next = next;
     }
 
-    public ListNode BuildDefaultListNode(int count) {
+    public static ListNode BuildDefaultListNode(int count) {
         ListNode head = new ListNode();
         ListNode cur = new ListNode();
         ListNode next = new ListNode();
@@ -37,7 +37,7 @@ public class ListNode {
         return head;
     }
 
-    public ListNode BuildListNode(int[] nums) {
+    public static ListNode BuildListNode(int[] nums) {
         ListNode head = new ListNode();
         ListNode cur = new ListNode();
         ListNode next = new ListNode();
