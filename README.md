@@ -2,4 +2,4 @@
 
 Coding Better!
 
-[算法笔记](/algorithm/docs/算法笔记.md)
+[算法笔记](./algorithm/docs/算法笔记.md)
