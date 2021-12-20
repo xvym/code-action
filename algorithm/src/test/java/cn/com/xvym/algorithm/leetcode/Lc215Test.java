@@ -25,12 +25,12 @@ public class Lc215Test {
 
     public void heapSort(int[] nums, int k) {
         int length = nums.length;
-        // 先自底向上进行一轮堆化
+        // 先自底向上进行一轮堆化。完成堆化后，堆中的所有父节点都已经符合大顶堆
         for (int i = length / 2 - 1; i >= 0; i--) {
             buildMaxHeap(nums, i, length);
         }
         int lastIndex = length - 1;
-        // 再自顶向下进行一轮堆化
+        // 再自顶向下进行一轮堆化（因为一个较小的元素换到堆顶来了，所以要重新堆化把元素沉到相应的位置，重建大顶堆）
         // 因为只需要找到第K大的数，因此堆化只需要进行K次
         for (int j = 0; j < k; j++) {
             swap(nums, 0, lastIndex);
