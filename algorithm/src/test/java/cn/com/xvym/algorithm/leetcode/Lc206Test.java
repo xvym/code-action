@@ -11,7 +11,7 @@ import org.junit.Test;
  * @Tag: 链表
  */
 @Slf4j
-public class Lc003Test {
+public class Lc206Test {
 
     @Test
     public void test() {
