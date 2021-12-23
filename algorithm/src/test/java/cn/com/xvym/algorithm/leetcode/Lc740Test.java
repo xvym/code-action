@@ -5,6 +5,7 @@ import org.junit.Test;
 /**
  * @Author: 11104353
  * @Date: 2021/12/21 15:02
+ * @Title: 删除与获得点数
  * @LinK: https://leetcode-cn.com/problems/delete-and-earn/
  * @Tag: 动态规划
  */

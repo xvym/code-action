@@ -5,6 +5,7 @@ import org.junit.Test;
 /**
  * @Author: Xv
  * @Date: 2021/12/21 22:46
+ * @Title: 用Rand7()实现Rand10()
  * @Link: https://leetcode-cn.com/problems/implement-rand10-using-rand7/
  * @Tag: 其他
  */
